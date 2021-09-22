@@ -8,3 +8,18 @@ td {
   cursor: pointer;
   font-family: "Montserrat", sans-serif;
 }
+
+#bingotable {
+  height: 700px;
+}
+
+#bingotable th {
+  height: 100px;
+}
+#bingotable td {
+  height: 100px;
+  width: 100px;
+}
+
+#TableDiv {
+}
