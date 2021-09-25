@@ -1,18 +1,8 @@
 const ListOfWords = [
-"Fishing",
-"Almonds use a lot of water",
-"B12",
-"Killing animals in games",
-"PETA",
-"Deserted Island",
-"Breast Feeding Babies",
-"Backyard Chicken Eggs",
-"Eat Roadkill",
-"Soy = Bad",
-"Top of food chain",
-"Apex predators",
-"Hitler was vegetarian",
-"Pushing lifestyle",
+  "Top of food chain",
+  "Apex predators",
+  "Hitler was vegetarian",
+  "Pushing lifestyle",
   "Where do you get your protein",
   "I dont feel bad for animals",
   "Plants taste bad",
@@ -62,6 +52,9 @@ const ListOfWords = [
   "What about Zoo's",
   "Someone buys me food",
   "Feeling bad after going Vegan",
+  "Testing on animals in necessary",
+  "Difference between vegan and vegetarian?",
+  "Rights And Law",
 ];
 
 var usedNums = new Array(76);
@@ -69,7 +62,16 @@ var usedNums = new Array(76);
 function setSquare(thisSquare) {
   var currSquare = "square" + thisSquare;
 
-  document.getElementById(currSquare).innerHTML = getNewNum();
+  document.getElementById(
+    currSquare
+  ).innerHTML = `<div class="h-100 row align-items-center">
+  <div class="col">
+    <div class="row  justify-content-md-center">
+      ${getNewNum()}
+    </div>
+  </div>
+</div>`;
+
   document
     .getElementById(currSquare)
     .setAttribute("onCLick", "ChangeColor(this.id)");
