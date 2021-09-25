@@ -6,7 +6,8 @@ body {
 
 td {
   cursor: pointer;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 20px;
 }
 
 #bingotable {
