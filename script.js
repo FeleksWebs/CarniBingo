@@ -1,5 +1,5 @@
 const ListOfWords = [
-  "Im 90% vegan",
+  "Im x% vegan",
   "Top of food chain",
   "Apex predators",
   "Hitler was vegetarian",
