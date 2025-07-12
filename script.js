@@ -51,7 +51,6 @@ const ListOfWords = [
   "Someone buys me food",
   "Feeling bad after going Vegan",
   "Testing on animals in necessary",
-  "Rights And Law",
 ];
 
 var usedNums = new Array(76);
