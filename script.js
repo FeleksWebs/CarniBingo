@@ -50,7 +50,7 @@ const ListOfWords = [
   "Zoos help animals",
   "Someone buys me food",
   "Feeling bad after going Vegan",
-  "Testing on animals in necessary",
+  "Testing on animals is necessary",
 ];
 
 var usedNums = new Array(76);
